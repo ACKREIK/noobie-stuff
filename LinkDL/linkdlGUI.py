@@ -8,7 +8,8 @@
 
 # for vids OTHER than youtube there is NO garuntee to work, AT ALL.
 
-info = """
+info = f"""
+{'='*50}
 ####INFORMATION####
 
 #This has support for images, videos and others (text files, etc)
@@ -21,6 +22,7 @@ info = """
 
 #For vids OTHER than youtube there is NO garuntee to work, AT ALL.
 ####END OF INFO####
+{'='*50}
 """
 
 
