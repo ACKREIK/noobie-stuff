@@ -1,3 +1,6 @@
+#has support for images, videos and others
+#recco video type is YOUTUBE (ex. https://www.youtube.com/watch?v=PKtnafFtfEo), yes i used a mr beast video haha
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter import * 
