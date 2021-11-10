@@ -1,5 +1,28 @@
-#has support for images, videos and others
+#has support for images, videos and others (text files, etc)
 #recco video type is YOUTUBE (ex. https://www.youtube.com/watch?v=PKtnafFtfEo), yes i used a mr beast video haha
+
+#Youtube Continued:
+#if you do .mp3 as the file extension for youtube it will become an audio file.
+#youtube vids are only mp4s at max quality (max is 720p or the videos max if lower)
+#you dont need to add file extensions to youtube mp4s, but for mp3s you do.
+
+# for vids OTHER than youtube there is NO garuntee to work, AT ALL.
+
+info = """
+####INFORMATION####
+
+#This has support for images, videos and others (text files, etc)
+#Recco video type is YOUTUBE (ex. https://www.youtube.com/watch?v=PKtnafFtfEo), yes i used a mr beast video haha
+
+#Youtube Continued:
+#if you do .mp3 as the file extension for youtube it will become an audio file.
+#youtube vids are only mp4s at max quality (max is 720p or the videos max if lower)
+#you dont need to add file extensions to youtube mp4s, but for mp3s you do.
+
+#For vids OTHER than youtube there is NO garuntee to work, AT ALL.
+####END OF INFO####
+"""
+
 
 import tkinter as tk
 from tkinter import ttk
@@ -12,7 +35,8 @@ import shutil,os
 print("Prepping...")
 print("Logged in as... " + name)
 print("Welcome!")
-b
+print(info)
+
 try: #pytube
     from pytube import YouTube
     
